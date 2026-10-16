@@ -1,0 +1,527 @@
+{
+  "schemaVersion": 2,
+  "version": "2026.10.16.1",
+  "minEngineVersion": "0.5.0",
+  "rules": [
+    {
+      "id": "official-text-ads",
+      "name": "\u5B98\u65B9\u63A8\u8350\u6D88\u606F",
+      "adapter": "text-ads",
+      "enabled": true,
+      "selector": "[id=\u0022text_adx\u0022]",
+      "activeSelector": null,
+      "dialogSelector": null,
+      "promotedSelector": null,
+      "badgeSelector": null,
+      "containerSelector": null,
+      "scopeSelector": null,
+      "hideWholePanel": false,
+      "labels": [],
+      "requiredText": null,
+      "imageHosts": [],
+      "eventKeys": [],
+      "paths": [],
+      "assetPaths": []
+    },
+    {
+      "id": "commerce-chat-card",
+      "name": "\u5546\u54C1\u63A8\u5E7F\u5361\u7247",
+      "adapter": "commerce-card",
+      "enabled": true,
+      "selector": "._3C06zot",
+      "activeSelector": null,
+      "dialogSelector": null,
+      "promotedSelector": null,
+      "badgeSelector": null,
+      "containerSelector": null,
+      "scopeSelector": null,
+      "hideWholePanel": false,
+      "labels": [],
+      "requiredText": "\u6E38\u4ED3\u597D\u7269\u642D\u5B50",
+      "imageHosts": [
+        "game-market.yystatic.com"
+      ],
+      "eventKeys": [],
+      "paths": [],
+      "assetPaths": []
+    },
+    {
+      "id": "task-redpacket-auto-popup",
+      "name": "\u5546\u4E1A\u7EA2\u5305\u81EA\u52A8\u5F39\u7A97",
+      "adapter": "task-dialog",
+      "enabled": true,
+      "selector": null,
+      "activeSelector": null,
+      "dialogSelector": "._1xpN276",
+      "promotedSelector": null,
+      "badgeSelector": null,
+      "containerSelector": null,
+      "scopeSelector": null,
+      "hideWholePanel": false,
+      "labels": [],
+      "requiredText": null,
+      "imageHosts": [],
+      "eventKeys": [
+        "pcyytaskredpacketpopup"
+      ],
+      "paths": [
+        "/jcw_pcyy_task/redpacket_popup.html"
+      ],
+      "assetPaths": []
+    },
+    {
+      "id": "task-redpacket-entry",
+      "name": "\u5546\u4E1A\u7EA2\u5305\u6D3B\u52A8\u5165\u53E3",
+      "adapter": "task-entry",
+      "enabled": true,
+      "selector": "._sap-lcc",
+      "activeSelector": null,
+      "dialogSelector": null,
+      "promotedSelector": null,
+      "badgeSelector": null,
+      "containerSelector": null,
+      "scopeSelector": null,
+      "hideWholePanel": false,
+      "labels": [],
+      "requiredText": null,
+      "imageHosts": [],
+      "eventKeys": [],
+      "paths": [
+        "/jcw_pcyy_task/bar.html"
+      ],
+      "assetPaths": []
+    },
+    {
+      "id": "commerce-sidebar",
+      "name": "\u5546\u57CE\u3001\u627E\u642D\u5B50\u53CA\u6574\u6761\u4FA7\u680F",
+      "adapter": "mall-sidebar",
+      "enabled": true,
+      "selector": "._2LkMlRD",
+      "activeSelector": "._24--V4e",
+      "dialogSelector": null,
+      "promotedSelector": null,
+      "badgeSelector": null,
+      "containerSelector": null,
+      "scopeSelector": null,
+      "hideWholePanel": true,
+      "labels": [
+        "\u5546\u57CE",
+        "\u627E\u642D\u5B50"
+      ],
+      "requiredText": null,
+      "imageHosts": [],
+      "eventKeys": [],
+      "paths": [
+        "/MallShopPCSideBar/index.html",
+        "/pcyy_play_card/list.html"
+      ],
+      "assetPaths": []
+    },
+    {
+      "id": "game-promotion-strip",
+      "name": "\u63A8\u5E7F\u56FE\u6807\u548C\u5E26AD\u7684\u5C0F\u6E38\u620F\u5165\u53E3",
+      "adapter": "game-strip",
+      "enabled": true,
+      "selector": "._1y2N-6t",
+      "activeSelector": null,
+      "dialogSelector": null,
+      "promotedSelector": "._3qEyr4I",
+      "badgeSelector": "._2u9kN5S",
+      "containerSelector": "._2hXOJpR",
+      "scopeSelector": null,
+      "hideWholePanel": false,
+      "labels": [],
+      "requiredText": null,
+      "imageHosts": [
+        "yyad.yystatic.com",
+        "pgdt.ugdtimg.com",
+        "fc1tn.baidu.com",
+        "fc2tn.baidu.com",
+        "fc3tn.baidu.com",
+        "fc4tn.baidu.com",
+        "fc5tn.baidu.com",
+        "fc6tn.baidu.com"
+      ],
+      "eventKeys": [],
+      "paths": [],
+      "assetPaths": []
+    },
+    {
+      "id": "floating-commerce",
+      "name": "YY\u6E38\u4ED3\u6D6E\u52A8\u63A8\u5E7F",
+      "adapter": "floating-commerce",
+      "enabled": true,
+      "selector": "._14SmfJU",
+      "activeSelector": null,
+      "dialogSelector": null,
+      "promotedSelector": null,
+      "badgeSelector": null,
+      "containerSelector": null,
+      "scopeSelector": null,
+      "hideWholePanel": false,
+      "labels": [],
+      "requiredText": null,
+      "imageHosts": [],
+      "eventKeys": [],
+      "paths": [],
+      "assetPaths": [
+        "https://mbcontent.bs2dl.yy.com/6a0c25ed44f2f412b50aa7e0.png"
+      ]
+    },
+    {
+      "id": "livewall-commercial-banner",
+      "name": "\u9876\u90E8\u5546\u4E1A\u6A2A\u5E45\uFF08\u4FDD\u7559\u516C\u544A\u533A\uFF09",
+      "adapter": "livewall-ads",
+      "enabled": true,
+      "selector": ".ad-banner-item-wrapper",
+      "activeSelector": null,
+      "dialogSelector": null,
+      "promotedSelector": null,
+      "badgeSelector": null,
+      "containerSelector": null,
+      "scopeSelector": null,
+      "hideWholePanel": false,
+      "labels": [],
+      "requiredText": null,
+      "imageHosts": [
+        "yyad.yystatic.com",
+        "pgdt.ugdtimg.com",
+        "s3m.mediav.com",
+        "live-s3m.mediav.com"
+      ],
+      "eventKeys": [],
+      "paths": [],
+      "assetPaths": []
+    },
+    {
+      "id": "commerce-popup-notification",
+      "name": "\u5546\u54C1\u63A8\u8350\u5F39\u7A97\u5185\u5BB9",
+      "adapter": "commerce-popup",
+      "enabled": true,
+      "selector": "[class^=\u0022popup-\u0022]",
+      "activeSelector": null,
+      "dialogSelector": null,
+      "promotedSelector": null,
+      "badgeSelector": null,
+      "containerSelector": null,
+      "scopeSelector": null,
+      "hideWholePanel": false,
+      "labels": [],
+      "requiredText": null,
+      "imageHosts": [
+        "game-market.yystatic.com"
+      ],
+      "eventKeys": [],
+      "paths": [],
+      "assetPaths": []
+    },
+    {
+      "id": "footer-commerce-features",
+      "name": "\u6E38\u620F\u4F30\u4EF7\u3001\u6E38\u620F\u5546\u57CE\u3001\u6E38\u620F\u52A0\u901F",
+      "adapter": "commercial-feature-buttons",
+      "enabled": true,
+      "selector": "#appCenter,._PfwD2Ha,._Gg-XkX1",
+      "activeSelector": null,
+      "dialogSelector": null,
+      "promotedSelector": null,
+      "badgeSelector": null,
+      "containerSelector": null,
+      "scopeSelector": ".ChannelBotttomBar,.AudioFunctionPanel",
+      "hideWholePanel": false,
+      "labels": [
+        "\u6E38\u620F\u4F30\u4EF7",
+        "\u6E38\u620F\u5546\u57CE",
+        "\u6E38\u620F\u52A0\u901F"
+      ],
+      "requiredText": null,
+      "imageHosts": [],
+      "eventKeys": [],
+      "paths": [],
+      "assetPaths": []
+    },
+    {
+      "id": "login-commercial-banner",
+      "name": "\u767B\u5F55\u9875\u5DE6\u4FA7\u5E7F\u544A\u548C\u8F6E\u64AD",
+      "adapter": "login-banner",
+      "enabled": true,
+      "selector": "#fun-root",
+      "activeSelector": null,
+      "dialogSelector": null,
+      "promotedSelector": null,
+      "badgeSelector": null,
+      "containerSelector": null,
+      "scopeSelector": null,
+      "hideWholePanel": false,
+      "labels": [],
+      "requiredText": null,
+      "imageHosts": [],
+      "eventKeys": [],
+      "paths": [
+        "/pcyy_loginbanner/index.html"
+      ],
+      "assetPaths": []
+    }
+  ],
+  "recognition": {
+    "fingerprintVersion": "ast-bindings-v2",
+    "evidenceProperties": [
+      "goodsId",
+      "goodsType",
+      "categoryTag",
+      "curAdList",
+      "showH5Url",
+      "chatRoomTaskEntry",
+      "CloseGamemallPage",
+      "gamemallSwitch",
+      "setAdxEnterData",
+      "useState",
+      "useRef",
+      "jsx",
+      "jsxs",
+      "createElement"
+    ],
+    "literals": [
+      {
+        "signal": "text-ad-marker",
+        "match": "equals",
+        "values": [
+          "text_adx"
+        ]
+      },
+      {
+        "signal": "task-page",
+        "match": "contains",
+        "values": [
+          "/jcw_pcyy_task/"
+        ]
+      },
+      {
+        "signal": "commerce-source",
+        "match": "contains",
+        "values": [
+          "game-market.yystatic.com"
+        ]
+      },
+      {
+        "signal": "advertising-source",
+        "match": "contains",
+        "values": [
+          "yyad.yystatic.com"
+        ]
+      }
+    ],
+    "features": [
+      {
+        "id": "goods-id",
+        "source": "property",
+        "values": [
+          "goodsId"
+        ]
+      },
+      {
+        "id": "goods-type",
+        "source": "property",
+        "values": [
+          "goodsType"
+        ]
+      },
+      {
+        "id": "ad-list",
+        "source": "property",
+        "values": [
+          "curAdList"
+        ]
+      },
+      {
+        "id": "h5-url",
+        "source": "property",
+        "values": [
+          "showH5Url"
+        ]
+      },
+      {
+        "id": "task-entry",
+        "source": "property-or-string",
+        "values": [
+          "chatRoomTaskEntry"
+        ]
+      },
+      {
+        "id": "mall-close",
+        "source": "property-or-string",
+        "values": [
+          "CloseGamemallPage"
+        ]
+      },
+      {
+        "id": "mall-switch",
+        "source": "property-or-string",
+        "values": [
+          "gamemallSwitch"
+        ]
+      },
+      {
+        "id": "adx-data",
+        "source": "property",
+        "values": [
+          "setAdxEnterData"
+        ]
+      },
+      {
+        "id": "text-marker",
+        "source": "literal",
+        "values": [
+          "text-ad-marker"
+        ]
+      },
+      {
+        "id": "task-page",
+        "source": "literal",
+        "values": [
+          "task-page"
+        ]
+      },
+      {
+        "id": "render",
+        "source": "call",
+        "values": [
+          "jsx",
+          "jsxs",
+          "createElement"
+        ]
+      },
+      {
+        "id": "ref-call",
+        "source": "call",
+        "values": [
+          "useRef"
+        ]
+      }
+    ],
+    "profiles": [
+      {
+        "id": "commerce-goods-card",
+        "requiredFeatures": [
+          "goods-id",
+          "goods-type",
+          "render"
+        ]
+      },
+      {
+        "id": "commercial-task-entry",
+        "requiredFeatures": [
+          "task-entry",
+          "task-page"
+        ]
+      },
+      {
+        "id": "footer-mall",
+        "requiredFeatures": [
+          "mall-close",
+          "mall-switch"
+        ]
+      },
+      {
+        "id": "permanent-promotion",
+        "requiredFeatures": [
+          "ad-list",
+          "h5-url",
+          "render"
+        ]
+      },
+      {
+        "id": "official-text-ads",
+        "requiredFeatures": [
+          "text-marker",
+          "render",
+          "ref-call"
+        ]
+      },
+      {
+        "id": "game-promotion-strip",
+        "requiredFeatures": [
+          "adx-data",
+          "render"
+        ]
+      }
+    ],
+    "additionalProtectionHints": [],
+    "fingerprints": []
+  },
+  "observation": {
+    "pageScopes": [
+      {
+        "kind": "channel",
+        "hosts": [
+          "base.c.yy.com"
+        ],
+        "paths": [],
+        "pathPrefixes": [
+          "/"
+        ]
+      },
+      {
+        "kind": "login-banner",
+        "hosts": [
+          "web.yy.com"
+        ],
+        "paths": [
+          "/pcyy_loginbanner/index.html"
+        ],
+        "pathPrefixes": []
+      },
+      {
+        "kind": "livewall",
+        "hosts": [
+          "web.yy.com"
+        ],
+        "paths": [],
+        "pathPrefixes": [
+          "/livewall/"
+        ]
+      },
+      {
+        "kind": "commerce-popup",
+        "hosts": [
+          "voice.yy.com"
+        ],
+        "paths": [],
+        "pathPrefixes": [
+          "/pc/pcyy_popupnotification/"
+        ]
+      }
+    ],
+    "scriptHosts": [
+      "base.c.yy.com",
+      "web.yy.com",
+      "voice.yy.com"
+    ],
+    "textAdIds": [
+      "text_adx"
+    ],
+    "taskFrames": [
+      {
+        "kind": "commercial-task-entry",
+        "hosts": [
+          "web.yy.com"
+        ],
+        "paths": [],
+        "pathPrefixes": [
+          "/jcw_pcyy_task/"
+        ]
+      }
+    ],
+    "commerceImageHosts": [
+      "game-market.yystatic.com"
+    ],
+    "footerLabels": [
+      "\u5546\u57CE",
+      "\u6E38\u620F\u5546\u57CE"
+    ],
+    "loginRootIds": [
+      "fun-root"
+    ],
+    "additionalNoticeIds": [],
+    "additionalChatIds": []
+  }
+}
