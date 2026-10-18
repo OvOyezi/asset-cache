@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "version": "2026.10.16.1",
+  "version": "2026.10.19.1",
   "minEngineVersion": "0.5.0",
   "package": "rules/latest.yyrules",
-  "sha256": "96DA5126DAAE3528E29366AA82CA15D9FB585F1C577A20DF7C78FF36104F6448",
-  "bytes": 17835,
+  "sha256": "B527187F51C2AE7FD430A6B4C9942E2FC9EB9831A4DAFF9326A940F62E0CA0EC",
+  "bytes": 18709,
   "executableCodeIncluded": false,
   "note": "Informational metadata only. Clients verify the signed package and its inner version."
 }
