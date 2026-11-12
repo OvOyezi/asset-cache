@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "version": "2026.11.5.1",
-  "minEngineVersion": "0.5.0",
+  "version": "2026.11.12.1",
+  "minEngineVersion": "0.5.19",
   "package": "rules/latest.yyrules",
-  "sha256": "7368B156F9B2E7E60309C0FF7C3AB0AABB181D760B21696A175CC06F44AACC57",
-  "bytes": 20090,
+  "sha256": "B0648045E45F465E9DF0F558A9B817125BCBBA0FE8B69EDF9118AD26FFA31BA8",
+  "bytes": 20427,
   "executableCodeIncluded": false,
-  "note": "Informational metadata only. Clients verify the signed package and its inner version."
+  "note": "Requires YY cleaner 1.0.4 for the channel feature promotion adapters. Clients verify the signed package and its inner version."
 }
